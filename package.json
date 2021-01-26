@@ -12,9 +12,16 @@
   ],
   "author": "",
   "license": "ISC",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-voxeet": {}
+    }
+  },
   "dependencies": {
     "@capacitor/cli": "^2.4.6",
     "@capacitor/core": "^2.4.6",
-    "@capacitor/ios": "^2.4.6"
+    "@capacitor/ios": "^2.4.6",
+    "cordova-plugin-voxeet": "1.4.6",
+    "replace": "^1.2.0"
   }
 }
